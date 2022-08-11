@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scrambled-slackbot"
+version = "0.1.0"
+description = ""
+authors = ["snacky"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.2"
+flask-restx = "^0.5.1"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
