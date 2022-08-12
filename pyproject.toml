@@ -7,7 +7,7 @@ authors = ["snacky"]
 [tool.poetry.dependencies]
 python = "^3.10"
 Flask = "^2.2.2"
-flask-restx = "^0.5.1"
+slack-sdk = "^3.18.1"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.7.0"
