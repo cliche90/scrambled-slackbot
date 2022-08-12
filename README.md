@@ -1,13 +1,22 @@
 # Scrambled Slackbot
 
+## Print help message
+
+```bash
+make help
+```
+
 ## Build & Push Docker Image
 
-```
-# Build Image
+```bash
+# build docker image
 make build-image
 
-# Push Image to ghcr.io
+# push docker image to registry(ghcr.io)
 make push-image
+
+# build & push docker images
+make all 
 ```
 
 ## Ref.
