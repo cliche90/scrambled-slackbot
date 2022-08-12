@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/snacky/workspace/scrambled/scrambled-slackbot'
-cat ../github_docker_token | docker login https://ghcr.io -u snacky --password-stdin
-docker build -t ghcr.io:latest .
-make: Leaving directory `/Users/snacky/workspace/scrambled/scrambled-slackbot'
- 
